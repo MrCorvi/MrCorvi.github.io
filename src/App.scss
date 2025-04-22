@@ -49,7 +49,7 @@ $primarycolour: #310A5D;
 
 
 // #639CD9 #5454C5 #342056 #220E24 
-// #352F44 #2A2438 #411E8F #310A5D
+// #352F44 #2A2438 #411E8F #310A5D #131219
 
 // L'idea è di fare un effetto tipo lago, bordi scuri e background chiaro
 // I pulsante li vorei gestire come se quando gli clicki si muovono come un qualcosa che galleggia che va su e giù nell'acqua 
@@ -95,54 +95,17 @@ body{
   }
   
   #center{
-    min-height: 65vh;
+    min-height: 71vh;
     display: flex;
     flex-direction: row;
   
-    nav{
-      width: 25%;
-      border-radius: 20px;
-      margin: 20px 10px 20px 20px;
-      background: #2A2438;
-      text-align: center;
-      flex: 1 1 0;
-      box-shadow: inset 0px 0px 20px 10px #0000005A;
-      
-      a{
-        color: #FFF;
-      }
-    }
-  
     main{
-      width: 75%; 
       border-radius: 20px;
       padding: 10px;
       margin: 20px 20px 20px 10px;
       background: #2A2438;
   
-      box-shadow: inset 0px 0px 10px 5px #0000005A;
-
-      article{
-        margin: 10px;
-        padding: 20px;
-        border-radius: 20px;
-        background: #351972;
-        box-shadow: inset 0px 0px 2px 2px #0000005A;
-
-        h2{
-          font-size: 30px;
-          text-align: center;
-          margin: 0;
-          padding: 0;
-        }
-        
-        p{
-          font-size: 20px;
-          text-align: justify;
-          margin: 0;
-          padding: 0;
-        }
-      }
+      box-shadow: inset 0px 0px 20px 10px #0000005A;
     }
   }
   
@@ -155,4 +118,3 @@ body{
     box-shadow: inset 0px 0px 20px 10px #0000005A;
   }
 }
-

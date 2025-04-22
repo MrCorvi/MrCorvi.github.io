@@ -1,0 +1,48 @@
+.box{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #351972;
+    // box-shadow: inset 0px 0px 2px 2px #0000005A;
+    border: 3px solid #0000;
+    background: 
+      linear-gradient(#131219, #131219) padding-box, 
+      linear-gradient(
+          var(--angle),
+          #070707,
+          #687aff
+        ) border-box;
+    animation: 8s rotate linear infinite;
+
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    h2{
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    
+    p{
+      font-size: 20px;
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+
+
+@keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }

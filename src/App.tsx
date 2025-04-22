@@ -2,6 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.scss'
+import Article from "./components/article/article"
+import Sidebar from './components/sidebar/sidebar.module'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,19 +14,11 @@ function App() {
         <h1 className='prova'>MrCorvi Garage</h1>
       </header>
       <div id='center'>
-        <nav>
-          <ul>
-            <li>Photos</li>
-            <li>Amigurumi</li>
-            <li>About Me</li>
-          </ul>
-        </nav>
+        <Sidebar></Sidebar>
         <main>
-          <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Soluta et fuga quis eligendi dolore, aliquid incidunt voluptatem nam maiores,
-            porro quibusdam, sed quam eius ipsam inventore laudantium exercitationem molestiae tempore!
-          </article>
+        <Article></Article>
+        <Article></Article>
+        <Article></Article>
         </main>
       </div>
       <footer>
