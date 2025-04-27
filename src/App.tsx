@@ -16,9 +16,30 @@ function App() {
       <div id='center'>
         <Sidebar></Sidebar>
         <main>
-        <Article></Article>
-        <Article></Article>
-        <Article></Article>
+          <Article>
+            <p>
+              {`Progammatore 🖥️
+              Appasionato amigurumi ! 🧶
+              Animazioni 🎬️
+              Gamedev 👾`}
+            </p>
+          </Article>
+          <Article>
+            <>
+              <h2>
+                Perche questa pagina ?
+              </h2>
+              <p>
+                {`Questa pagina nasce pricipalmente per tornare ad una esperienza internet 1.0
+                Pur non avendo vissuto molto quel periodo storico mi manca quando Internet era un insieme di pagine web e blog, 
+                dove ognuno potesse mostrare la propria personalità, e non solo 3/4 social che ti standardizano come esprimere te stesso.`}
+              </p>
+              <p>
+                {`Detto questo non è che ritiro dai social o alltro, ma pesnavo fosse carino avere uno spazio personale dove non avere restiioni random imposte dai social.
+                Quindi se continui a leggere sei il ✨✨benvenuto✨✨`}
+              </p>
+            </>
+          </Article>
         </main>
       </div>
       <footer>
@@ -38,11 +59,11 @@ function App() {
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        `}</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p> */}
+      `}</p> */}
     </>
   )
 }

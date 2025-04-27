@@ -1,17 +1,13 @@
+import { ReactElement } from "react"
 import styles from "./article.module.scss"
 
-export default function Article() {
+interface ArticleProps {
+    children: ReactElement
+}
+export default function Article({children}:ArticleProps) {
     return (
         <article className={styles.box}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Soluta et fuga quis eligendi dolore, aliquid incidunt voluptatem nam maiores,
-            porro quibusdam, sed quam eius ipsam inventore laudantium exercitationem molestiae tempore!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Soluta et fuga quis eligendi dolore, aliquid incidunt voluptatem nam maiores,
-            porro quibusdam, sed quam eius ipsam inventore laudantium exercitationem molestiae tempore!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Soluta et fuga quis eligendi dolore, aliquid incidunt voluptatem nam maiores,
-            porro quibusdam, sed quam eius ipsam inventore laudantium exercitationem molestiae tempore!
+            {children}
         </article>
     )
 }
